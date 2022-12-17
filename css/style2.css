@@ -1,0 +1,27 @@
+.section {}
+
+h1 {
+	padding: 20px;
+	font-size: 50px;
+	text-align: center;
+	color: rgb(188, 48, 151);
+}
+
+p {
+	padding: 20px;
+	font-size: 26px;
+}
+
+.sharik {
+	margin: 0 auto;
+	background-image: url(../images/sharik.png);
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+
+}
+
+.sharik:last-child {
+	margin-bottom: 50px;
+}
