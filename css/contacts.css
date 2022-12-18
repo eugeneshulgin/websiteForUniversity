@@ -20,12 +20,6 @@
 	padding-bottom: 20px;
 }
 
-.box2 {
-	background-color: rgb(88, 167, 146);
-	width: 200px;
-	height: 500px;
-}
-
 .box-tel a {}
 
 h3 {
@@ -41,4 +35,13 @@ h3 {
 
 .box-social {
 	text-align: center;
+}
+
+.box3 {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.shar {
+	background-image: url(../images/sharik.png);
 }
