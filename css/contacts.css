@@ -1,0 +1,44 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+}
+
+.box-time h3 {}
+
+.box div {
+	padding-bottom: 20px;
+}
+
+.box2 {
+	background-color: rgb(88, 167, 146);
+	width: 200px;
+	height: 500px;
+}
+
+.box-tel a {}
+
+h3 {
+	font-size: 20px;
+	text-align: center;
+	color: rgb(191, 44, 207);
+}
+
+.box-style {
+	font-size: 40px;
+	color: rgb(144, 26, 158);
+}
+
+.box-social {
+	text-align: center;
+}

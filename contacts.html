@@ -5,17 +5,18 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>catalog</title>
+	<title>contacts</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style2.css">
 	<link rel="stylesheet" href="topBtn.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/contacts.css">
 	<script src="scroll.js" defer></script>
 	<script src="cards.js" defer></script>
 </head>
 
 <body>
-
 	<div class="header">
 
 		<div class="header-top">
@@ -78,7 +79,7 @@
 							</ul>
 						</li>
 						<li class="menu__item">
-							<a href="contacts.html" class="menu__link">КОНТАКТЫ</a>
+							<a href="" class="menu__link">КОНТАКТЫ</a>
 						</li>
 					</ul>
 
@@ -89,37 +90,91 @@
 	</div>
 
 
+
 	<main class="main">
-		<section class="shop">
-			<div class="container">
+		<div class="container">
+			<section class="section2">
+				<h1>КОНТАКТЫ</h1>
+				<div class="content">
 
-				<div class="flex">
-					<div class="flex__item">
-						<div class="flex__img flex__img_bg1">
+					<div class="box">
 
+						<div class="box-time">
+							<h3>ВРЕМЯ РАБОТЫ МАГАЗИНА:</h3>
+							<span class="box-style">10:00 - 20:00 (сб,вс - до 18:00)</span>
 						</div>
-						<h3>ШАРЫ ИЗ ЛАТЕКСА</h3>
-
+						<div class="box-tel">
+							<h3>НОМЕР ТЕЛЕФОНА МАГАЗИНА:</h3>
+							<a class="box-style" href="tel:80123456789">+375 12 345 67 89 A1</a>
+						</div>
+						<div class="box-email">
+							<h3>ПОЧТОВЫЙ АДРЕС МАГАЗИНА:</h3>
+							<a class="box-style" href="eugene.shulgin@mail.ru">sharik@mail.ru</a>
+						</div>
+						<div class="box-social">
+							<h3>Instagram</h3>
+							<a href="https://www.instagram.com/planetashariki/" class="box-style">
+								<img class="social-img" src="images/instagram.png" alt="">
+							</a>
+						</div>
 					</div>
-					<div class="flex__item">
-						<div class="flex__img flex__img_bg2">
 
+					<div class="box2">
+						<div class="form__form">
+							<div class="form">
+								<form action="#" id="form" class="form__body">
+									<h1 class="form__title">Связаться с нами</h1>
+									<div class="form__item">
+										<label for="formName" class="form__label">имя*:</label>
+										<input id="formName" type="text" name="name" class="form__input _req">
+									</div>
+									<div class="form__item">
+										<label for="formEmail" class="form__label">E-mail*:</label>
+										<input id="formEmail" type="text" name="email" class="form__input _req _email">
+									</div>
+									<div class="form__item">
+										<label for="formTel" class="form__label">телефон*:</label>
+										<input id="formTel" type="text" name="tel" class="form__input _req">
+									</div>
+									<div class="form__item">
+										<label for="formMessage" class="form__label">Сообщение:</label>
+										<textarea name="message" id="formMessage" class="form__input"></textarea>
+									</div>
+									<div class="form__item">
+										<div class="form__label">прикрепить фото</div>
+										<div class="file">
+											<div class="file__item">
+												<input id="formImage" accept=".jpg, .jpeg, .png, .gif" type="file" name="image"
+													class="file__input">
+												<div class="file__button">выбрать</div>
+											</div>
+											<div id="formPreview" class="file__preview"></div>
+										</div>
+									</div>
+									<div class="form__item">
+										<div class="checkbox">
+											<input id="formAgreement" checked type="checkbox" name="agreement"
+												class="checkbox__input _req">
+											<label for="formAgreement" class="checkbox__label"><span>Я даю своё согласие на
+													обработку персональных данных в соответствии с <a
+														href="">Условиями</a>*</span></label>
+										</div>
+									</div>
+									<button type="submit" class="form__button">отправить</button>
+								</form>
+							</div>
 						</div>
-						<h3>ШАРЫ ИЗ ФОЛЬГИ</h3>
-
-					</div>
-					<div class="flex__item">
-						<div class="flex__img flex__img_bg3">
-
-						</div>
-						<h3>ЦИФРЫ ИЗ ФОЛЬГИ</h3>
-
 					</div>
 
 				</div>
-			</div>
-		</section>
+
+
+
+			</section>
+		</div>
 	</main>
+
+
 
 	<footer class="footer">
 		<div class="container">
@@ -172,7 +227,9 @@
 		<img src="images/top.png" alt="">
 	</div>
 
+	<script src="slider.js"></script>
 	<script src="app.js"></script>
+
 </body>
 
 </html>

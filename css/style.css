@@ -20,6 +20,7 @@ ul li {
 
 /* --------------------------- */
 body {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -32,6 +33,12 @@ body {
 }
 
 /*            header            */
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 888;
+}
 
 .header-top {
 	background-color: rgb(255, 255, 255);
@@ -141,6 +148,7 @@ body {
 
 /*            main             */
 .main {
+	padding-top: 200px;
 	flex-grow: 1;
 }
 
@@ -274,14 +282,11 @@ body {
 
 .flex__item {
 	text-align: center;
-	width: 25%;
+	width: 50%;
 }
 
 .flex__img {
 	height: 230px;
-
-
-
 }
 
 .flex {
@@ -352,6 +357,7 @@ body {
 	display: none;
 	justify-content: center;
 	align-items: center;
+	z-index: 999;
 }
 
 .modal__body {}
@@ -488,26 +494,4 @@ table {
 	min-width: 400px;
 	color: rgb(96, 10, 65);
 	font-size: 25px;
-}
-
-#scrollTop {
-	position: fixed;
-	bottom: 150px;
-	right: 70px;
-	height: 50px;
-	width: 50px;
-	font-size: 40px;
-	z-index: 99;
-	background-image: url(../images/top.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-radius: 50%;
-}
-
-.isShowBtn {
-	opacity: 1;
-}
-
-.isShowBtn__hide {
-	opacity: 0;
 }
