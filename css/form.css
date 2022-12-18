@@ -1,11 +1,11 @@
 /* |||||||||||||||||||||||||||||||   FORM   ||||||||||||||||||||||||||||||||||||||||||| */
 .box2 {
-	padding: 10px 0 50px 0;
+	padding: 0px 0 50px 0;
 	border-radius: 50%;
 }
 
 .form__form {
-	background: linear-gradient(to right, rgb(114, 15, 109), rgb(207, 52, 218));
+	background: linear-gradient(to right, rgb(131, 35, 99), rgb(218, 52, 177));
 	width: auto;
 	display: flex;
 	justify-content: center;

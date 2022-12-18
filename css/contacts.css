@@ -39,9 +39,13 @@ h3 {
 
 .box3 {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .shar {
 	background-image: url(../images/sharik.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 200px;
 }
