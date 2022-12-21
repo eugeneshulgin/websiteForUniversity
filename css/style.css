@@ -42,6 +42,7 @@ body {
 
 .header-top {
 	background-color: rgb(255, 255, 255);
+	background-color: rgb(247, 208, 209);
 	padding: 10px 0px 10px 0px;
 }
 
@@ -151,7 +152,8 @@ body {
 	/* background-image: url(../images/фон.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat; */
-	background: linear-gradient(to bottom right, rgb(249, 223, 224), rgb(223, 164, 219));
+	/* background: linear-gradient(to bottom right, rgb(195, 217, 27), rgb(161, 226, 140)); */
+	background-color: rgb(247, 208, 209);
 	padding-top: 200px;
 	flex-grow: 1;
 	animation: fon 10s infinite;
@@ -159,15 +161,17 @@ body {
 
 @-webkit-keyframes fon {
 	0% {
-		background-color: rgb(247, 208, 209);
+
 		/* background-image: url(../images/фон.jpeg); */
 	}
 
 	50% {
 		/* background-image: url(../images/фон2.jpeg); */
+
 	}
 
 	100% {
+
 		/* background-image: url(../images/фон.jpeg); */
 	}
 }
