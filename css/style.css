@@ -148,9 +148,30 @@ body {
 
 /*            main             */
 .main {
+	/* background-image: url(../images/фон.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat; */
+	background: linear-gradient(to bottom right, rgb(249, 223, 224), rgb(223, 164, 219));
 	padding-top: 200px;
 	flex-grow: 1;
+	animation: fon 10s infinite;
 }
+
+@-webkit-keyframes fon {
+	0% {
+		background-color: rgb(247, 208, 209);
+		/* background-image: url(../images/фон.jpeg); */
+	}
+
+	50% {
+		/* background-image: url(../images/фон2.jpeg); */
+	}
+
+	100% {
+		/* background-image: url(../images/фон.jpeg); */
+	}
+}
+
 
 /*            footer             */
 

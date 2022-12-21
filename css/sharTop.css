@@ -1,0 +1,175 @@
+@media (min-width: 767px) {
+
+	.shar {
+		position: fixed;
+		background-image: url(../images/фиолетовыйЛатекс.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		bottom: 0px;
+		left: 10%;
+		width: 100px;
+		height: 100px;
+		animation: shar 10s infinite;
+		z-index: 1000;
+	}
+
+	@-webkit-keyframes shar {
+		0% {
+			transform: translateY(0);
+		}
+
+		50% {
+			transform: translateY(-1000px);
+		}
+
+		100% {
+			transform: translateY(0);
+		}
+	}
+
+	/* ///////////////////////////////// */
+	.shar2 {
+		position: fixed;
+		background-image: url(../images/желтыйЛатекс.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		bottom: 0px;
+		left: 25%;
+		width: 100px;
+		height: 100px;
+		animation: shar2 23s infinite;
+		z-index: 1000;
+	}
+
+	@-webkit-keyframes shar2 {
+		0% {
+			transform: translateY(0);
+		}
+
+		50% {
+			transform: translateY(-1000px);
+		}
+
+		100% {
+			transform: translateY(0);
+		}
+	}
+
+	/* ///////////////////////////////// */
+	/* ///////////////////////////////// */
+	.shar3 {
+		position: fixed;
+		background-image: url(../images/оранжевыйЛатекс.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		bottom: 0px;
+		left: 40%;
+		width: 100px;
+		height: 100px;
+		animation: shar3 17s infinite;
+		z-index: 1000;
+	}
+
+	@-webkit-keyframes shar3 {
+		0% {
+			transform: translateY(0);
+		}
+
+		50% {
+			transform: translateY(-1000px);
+		}
+
+		100% {
+			transform: translateY(0);
+		}
+	}
+
+	/* ///////////////////////////////// */
+	/* ///////////////////////////////// */
+	.shar4 {
+		position: fixed;
+		background-image: url(../images/синийЛатекс.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		bottom: 0px;
+		left: 55%;
+		width: 150px;
+		height: 150px;
+		animation: shar4 8s infinite;
+		z-index: 1000;
+	}
+
+
+	@-webkit-keyframes shar4 {
+		0% {
+			transform: translateY(0);
+		}
+
+		50% {
+			transform: translateY(-1000px);
+		}
+
+		100% {
+			transform: translateY(0);
+		}
+	}
+
+	/* ///////////////////////////////// */
+	/* ///////////////////////////////// */
+	.shar5 {
+		position: fixed;
+		background-image: url(../images/красныйЛатекс.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		bottom: 0px;
+		left: 70%;
+		width: 100px;
+		height: 100px;
+		animation: shar5 28s infinite;
+		z-index: 1000;
+	}
+
+	@-webkit-keyframes shar5 {
+		0% {
+			transform: translateY(0);
+		}
+
+		50% {
+			transform: translateY(-1000px);
+		}
+
+		100% {
+			transform: translateY(0);
+		}
+	}
+
+	/* ///////////////////////////////// */
+	/* ///////////////////////////////// */
+	.shar6 {
+		position: fixed;
+		background-image: url(../images/зеленыйЛатекс.png);
+		background-size: cover;
+		bottom: -100px;
+		left: 85%;
+		width: 100px;
+		height: 100px;
+		animation: shar6 14s infinite;
+		z-index: 1000;
+	}
+
+	@-webkit-keyframes shar6 {
+		0% {
+			transform: translateY(0);
+		}
+
+		50% {
+			transform: translateY(-1000px);
+		}
+
+		100% {
+			transform: translateY(0);
+		}
+	}
+
+	/* ///////////////////////////////// */
+}
