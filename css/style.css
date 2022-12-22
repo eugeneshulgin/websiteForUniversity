@@ -134,6 +134,7 @@ body {
 
 .header-footer {
 	background: linear-gradient(to bottom right, rgb(161, 58, 156), rgb(175, 32, 125));
+	border-image: 10px url(../images/topBottom.png);
 }
 
 .footer__header .menu__list {
@@ -159,7 +160,7 @@ body {
 	animation: fon 10s infinite;
 }
 
-@-webkit-keyframes fon {
+@keyframes fon {
 	0% {
 
 		/* background-image: url(../images/фон.jpeg); */
@@ -334,12 +335,12 @@ body {
 }
 
 .flex__img_bg2 {
-	background-image: url(../images/folga.jpeg);
+	background-image: url(../images/folga.png);
 
 }
 
 .flex__img_bg3 {
-	background-image: url(../images/numbers.jpeg);
+	background-image: url(../images/numbers.png);
 }
 
 .flex__over {

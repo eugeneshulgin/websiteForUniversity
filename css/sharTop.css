@@ -5,7 +5,7 @@
 		background-image: url(../images/фиолетовыйЛатекс.png);
 		background-size: cover;
 		background-repeat: no-repeat;
-		bottom: 0px;
+		bottom: -10%;
 		left: 10%;
 		width: 100px;
 		height: 100px;
@@ -16,14 +16,18 @@
 	@-webkit-keyframes shar {
 		0% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 
 		50% {
-			transform: translateY(-1000px);
+			transform: translateY(-110vh);
+
+
 		}
 
 		100% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 	}
 
@@ -33,7 +37,7 @@
 		background-image: url(../images/желтыйЛатекс.png);
 		background-size: cover;
 		background-repeat: no-repeat;
-		bottom: 0px;
+		bottom: -10%;
 		left: 25%;
 		width: 100px;
 		height: 100px;
@@ -44,14 +48,18 @@
 	@-webkit-keyframes shar2 {
 		0% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 
 		50% {
-			transform: translateY(-1000px);
+			transform: translateY(-110vh);
+
+
 		}
 
 		100% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 	}
 
@@ -62,7 +70,7 @@
 		background-image: url(../images/оранжевыйЛатекс.png);
 		background-size: cover;
 		background-repeat: no-repeat;
-		bottom: 0px;
+		bottom: -10%;
 		left: 40%;
 		width: 100px;
 		height: 100px;
@@ -73,14 +81,18 @@
 	@-webkit-keyframes shar3 {
 		0% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 
 		50% {
-			transform: translateY(-1000px);
+			transform: translateY(-110vh);
+
+
 		}
 
 		100% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 	}
 
@@ -91,7 +103,7 @@
 		background-image: url(../images/синийЛатекс.png);
 		background-size: contain;
 		background-repeat: no-repeat;
-		bottom: 0px;
+		bottom: -10%;
 		left: 55%;
 		width: 150px;
 		height: 150px;
@@ -103,14 +115,18 @@
 	@-webkit-keyframes shar4 {
 		0% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 
 		50% {
-			transform: translateY(-1000px);
+			transform: translateY(-110vh);
+
+
 		}
 
 		100% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 	}
 
@@ -121,7 +137,7 @@
 		background-image: url(../images/красныйЛатекс.png);
 		background-size: cover;
 		background-repeat: no-repeat;
-		bottom: 0px;
+		bottom: -10%;
 		left: 70%;
 		width: 100px;
 		height: 100px;
@@ -132,14 +148,18 @@
 	@-webkit-keyframes shar5 {
 		0% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 
 		50% {
-			transform: translateY(-1000px);
+			transform: translateY(-110vh);
+
+
 		}
 
 		100% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 	}
 
@@ -149,7 +169,7 @@
 		position: fixed;
 		background-image: url(../images/зеленыйЛатекс.png);
 		background-size: cover;
-		bottom: -100px;
+		bottom: -10%;
 		left: 85%;
 		width: 100px;
 		height: 100px;
@@ -160,14 +180,18 @@
 	@keyframes shar6 {
 		0% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 
 		50% {
 			transform: translateY(-110vh);
+
+
 		}
 
 		100% {
 			transform: translateY(0);
+			transform: scale(0.5)
 		}
 	}
 
