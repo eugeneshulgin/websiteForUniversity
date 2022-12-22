@@ -515,6 +515,7 @@ table {
 
 .nav__input {
 	border: 4px solid rgb(201, 22, 135);
+	background-color: rgb(250, 216, 238);
 	border-radius: 5px;
 	padding: 5px 40px 5px 40px;
 	min-width: 400px;

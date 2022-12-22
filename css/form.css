@@ -49,6 +49,7 @@
 }
 
 .form__input {
+	background-color: rgb(250, 216, 238);
 	height: 50px;
 	padding: 0px 20px;
 	border-radius: 5px;
